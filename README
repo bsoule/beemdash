@@ -1,0 +1,3 @@
+A MacOS dashboard widget to display a beeminder.com graph in your dashboard.
+
+Load the project up in dashcode, or just grab the widget from beemdash/project.wdgt and install. 
