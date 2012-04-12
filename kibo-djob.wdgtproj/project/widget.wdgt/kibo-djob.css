@@ -5,13 +5,17 @@ You may edit this file to customize your Dashboard widget.
 
 body {
     margin: 0px;
+    font-size: 16px;
 }
 
 #resize {
     position: absolute;
-    top: 208px;
-    right: 2px;
     -apple-dashboard-region: dashboard-region(control rectangle);
+    width: 12px;
+    height: 12px;
+    left: 799px;
+    top: 621px;
+    visibility: hidden;
 }
 
 #frontImg {
@@ -40,23 +44,11 @@ body {
     font-family: HelveticaNeue-Bold;
     height: 18px;
     font-size: 11pt;
-    color: rgb(128, 0, 64);
-    width: 108px;
-    left: 317px;
+    width: 126px;
+    left: 304px;
+    color: rgb(76, 76, 76);
     top: 28px;
     //color: rgb(255, 255, 102);
-}
-
-#recentLbl {
-    position: absolute;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    top: 407px;
-    left: 28px;
-    color: rgb(255, 255, 255);
-    visibility: hidden;
 }
 
 #recentData {
@@ -71,10 +63,13 @@ body {
     //text-overflow: clip;
     left: 28px;
     top: 594px;
-    width: 765px;
+    letter-spacing: 0px;
+    width: 383px;
+    text-align: left;
 }
 
 #infobutton {
+    display: none;
     position: absolute;
     width: 13px;
     height: 13px;
@@ -82,24 +77,12 @@ body {
     left: 793px;
 }
 
-#dataScroll {
-    position: absolute;
-    color: black;
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    left: 175px;
-    width: 304px;
-    height: 48px;
-    top: 390px;
-    visibility: hidden;
-}
-
 #kibo-k {
     position: absolute;
-    width: 28px;
-    height: 26px;
-    left: 279px;
-    top: 23px;
+    width: 45px;
+    height: 42px;
+    left: 258px;
+    top: 13px;
 }
 
 #graphName {
@@ -111,3 +94,21 @@ body {
     left: 424px;
     top: 25px;
 }
+
+#recentStats {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 19px;
+    letter-spacing: 0px;
+    top: 594px;
+    width: 383px;
+    left: 410px;
+    text-align: right;
+}
+.orange{ color:#ffa600; }
+.blue{ color:#6b6bff; }
+.green{ color:#00ad00; }

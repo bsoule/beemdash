@@ -7,15 +7,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>kibo-djob</string>
+	<string>beeminder</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.bsoule.widget.kibo-djob</string>
+	<string>com.bsoule.widget.beeminder</string>
 	<key>CFBundleName</key>
 	<string>kibo-djob</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.3</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.0.3</string>
 	<key>CloseBoxInsetX</key>
 	<integer>15</integer>
 	<key>CloseBoxInsetY</key>

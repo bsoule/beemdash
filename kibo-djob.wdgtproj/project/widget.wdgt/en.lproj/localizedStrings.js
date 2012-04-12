@@ -8,3 +8,4 @@ var localizedStrings = {
     "Done": "Done",
     "GraphName": "GraphName"
 };
+
